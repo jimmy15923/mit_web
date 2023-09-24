@@ -1,10 +1,461 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>你好，GitHub</title>
-  </head>
-  <body>
-    <h1>The project page is coming soon</h1>
-  </body>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>CEVR</title>
+
+    <style>
+        .responsive {
+            width: 100%
+        }
+    </style>
+
+    <style type="text/css">
+        /* Add a container class to center the table */
+        .table-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            /* Adjust the height if needed */
+            margin-top: -30px;
+        }
+
+        .tg {
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+
+        .tg td {
+            border-color: black;
+            border-style: solid;
+            border-width: 1px;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            overflow: hidden;
+            padding: 10px 5px;
+            word-break: normal;
+        }
+
+        .tg th {
+            border-color: black;
+            border-style: solid;
+            border-width: 1px;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            font-weight: normal;
+            overflow: hidden;
+            padding: 10px 5px;
+            word-break: normal;
+        }
+
+        .tg .tg-eiei {
+            background-color: #ffffff;
+            border-color: #9b9b9b;
+            color: #009901;
+            font-weight: bold;
+            text-align: center;
+            vertical-align: middle
+        }
+
+        .tg .tg-7s0l {
+            background-color: #ffffff;
+            border-color: #9b9b9b;
+            color: #000000;
+            font-weight: bold;
+            text-align: center;
+            vertical-align: middle
+        }
+
+        .tg .tg-jb0k {
+            background-color: #ffffff;
+            border-color: #9b9b9b;
+            color: #000000;
+            text-align: center;
+            vertical-align: middle
+        }
+    </style>
+
+
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.8.0/codemirror.min.css">
+    <link rel="stylesheet" href="css/app.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.8.0/codemirror.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.3/clipboard.min.js"></script>
+
+    <script src="js/app.js"></script>
+    <script src="js/video_comparison.js"></script>
+    <script src="js/result.js"></script>
+
+
+</head>
+
+
+
+
+<body>
+    <div class="container" id="main">
+        <div class="row">
+            <h2 class="col-md-12 text-center">
+                2D-3D Interlaced Transformer for Point Cloud Segmentation with Scene-Level Supervision</br>
+                <small>
+                    ICCV 2023
+                </small>
+            </h2>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <ul class="list-inline">
+                    <li>
+                        <a>
+                            Cheng-Kun Yang
+                        </a>
+                        </br>NTU, MediaTek
+                    </li>
+                    <li>
+                        <a href="https://minhungchen.netlify.app/">
+                            Min-Hung Chen
+                        </a>
+                        </br>NVIDIA
+                    </li>
+                    <li>
+                        <a href="https://www.csie.ntu.edu.tw/~cyy/">
+                            Yung-Yu Chaung
+                        </a>
+                        </br>NTU
+                    </li>
+                    <li>
+                        <a href="https://sites.google.com/site/yylinweb/">
+                            Yen-Yu Lin
+                        </a>
+                        </br>NYCU
+                    </li>
+                    <!-- </br>NYCU -->
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-4 col-md-offset-4 text-center">
+                <ul class="nav nav-pills nav-justified">
+                    <li>
+                        <a href="">
+                            <image src="img/zip_paper_image.jpg" height="60px">
+                                <h4><strong>Paper</strong></h4>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <image src="img/youtube_icon.png" height="60px">
+                                <h4><strong>Video</strong></h4>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <image src="img/github.png" height="60px">
+                                <h4><strong>Github</strong></h4>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <br>
+
+        <div class="section">
+            <!-- Icon Section -->
+            <div class="row center">
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="image-container">
+                        <img class="responsive-img" src="img/MIT_Teaser.png" alt="Image Description">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Abstract
+                </h3>
+                <p class="text-justify">
+                    We present a Multimodal Interlaced Transformer (MIT) that jointly considers 2D and 3D data for
+                    weakly supervised point cloud segmentation. Research studies have shown that 2D and 3D features are 
+                    complementary for point cloud segmentation. However, existing methods require extra 2D annotations
+                    to achieve 2D-3D information fusion. Considering the high annotation cost of point clouds, effective 
+                    2D and 3D feature fusion based on weakly supervised learning is in great demand. To this end, 
+                    we propose a transformer model with two encoders and one decoder for weakly supervised point cloud
+                    segmentation using only scene-level class tags. Specifically, the two encoders compute the self-attended
+                    features for 3D point clouds and 2D multi-view images, respectively. The decoder implements interlaced
+                    2D-3D cross-attention and carries out implicit 2D and 3D feature fusion. We alternately switch the 
+                    roles of queries and key-value pairs in the decoder layers. It turns out that the 2D and 3D features 
+                    are iteratively enriched by each other. Experiments show that it performs favorably against existing 
+                    weakly supervised point cloud segmentation methods by a large margin on the S3DIS and ScanNet benchmarks.
+                </p>
+            </div>
+        </div>
+
+
+        <br>
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Video
+                </h3>
+                <video id="v0" width="100%" autoplay="" loop="" muted="" controls="">
+                    <source src="img/DemoVideo.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+        <br>
+        <!-- <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Evaluation Result
+                </h3>
+                <p class="text-justify">
+                    The ZIP file contain "results of each related work" and "the matlab script for evaluation". You can
+                    simply download the ZIP file and run the script to get the PSNR, HDR-VDP-2 score for tonemapped
+                    image and HDR file. (We evaluate on two datasets, VDS dataset and HDREye dataset, which are also in
+                    the ZIP file.)
+                </p>
+                <ul class="nav nav-pills nav-justified">
+                    <li>
+                        <a href="https://drive.google.com/file/d/1xeCT3APYkTnxeotb_t0wxdSPzBLbnU_p/view?usp=sharing">
+                            <image src="img/ZIPImage.png" height="60px">
+                                <h4><strong>Data and script</strong></h4>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div> -->
+
+
+
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Qualitative result
+                </h3>
+                <p class="text-justify">
+                    MIT visual results on the ScanNet dataset
+                </p>
+                <div class="image-container_result">
+                    <!-- <img id='LDRImg' src="img/Result_Website_LDR.png" onmouseover="hover(this)" onmouseout="hoverOut(this)"/> -->
+                    <!-- <img src="img/Result_Website_LDR.png" alt="Image 1" id="img_result1"> -->
+                    <!-- <img src="img/Result_Website_HDR.png" alt="Image 2" id="img_result2"> -->
+                    <img src="img/Result_Website_LDR.png" class="responsive" onmouseover="changeImage(1,this)"
+                        onmouseout="changeImage(2,this)">
+                </div>
+                </p>
+            </div>
+        </div>
+
+
+
+        <div class="section">
+            <!-- Icon Section -->
+            <div class="row center">
+                <div class="col-md-8 col-md-offset-2">
+                    <h3>
+                        Quantitative result
+                    </h3>
+                    <!--                   <div class="image-container">
+                    <img class="responsive-img" src="img/CEVR_Teaser.png" alt="Image Description">
+                  </div> -->
+                    <div class="table-container">
+                        <table class="tg">
+                            <thead>
+                                <tr>
+                                    <th class="tg-7s0l" rowspan="3">Dataset</th>
+                                    <th class="tg-7s0l" rowspan="3">Method</th>
+                                    <th class="tg-7s0l" colspan="2">PSNR</th>
+                                    <th class="tg-7s0l" colspan="2">PSNR</th>
+                                    <th class="tg-7s0l" colspan="2" rowspan="2">HDR-VDP-2</th>
+                                </tr>
+                                <tr>
+                                    <th class="tg-7s0l" colspan="2">RH's TMO</th>
+                                    <th class="tg-7s0l" colspan="2">KK's TMO</th>
+                                </tr>
+                                <tr>
+                                    <th class="tg-7s0l">mean</th>
+                                    <th class="tg-7s0l">Sigma</th>
+                                    <th class="tg-7s0l">mean</th>
+                                    <th class="tg-7s0l">Sigma</th>
+                                    <th class="tg-7s0l">mean</th>
+                                    <th class="tg-7s0l">Sigma</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="tg-jb0k" rowspan="6">VDS</td>
+                                    <td class="tg-jb0k">DrTMO</td>
+                                    <td class="tg-jb0k">25.49</td>
+                                    <td class="tg-jb0k">4.28</td>
+                                    <td class="tg-jb0k">21.36</td>
+                                    <td class="tg-jb0k">4.50</td>
+                                    <td class="tg-jb0k">54.33</td>
+                                    <td class="tg-jb0k">6.27</td>
+                                </tr>
+                                <tr>
+                                    <td class="tg-jb0k">Deep chain HDRi</td>
+                                    <td class="tg-jb0k">30.86</td>
+                                    <td class="tg-jb0k">3.36</td>
+                                    <td class="tg-jb0k">24.54</td>
+                                    <td class="tg-jb0k">4.01</td>
+                                    <td class="tg-jb0k">56.36</td>
+                                    <td class="tg-jb0k">4.41</td>
+                                </tr>
+                                <tr>
+                                    <td class="tg-jb0k">Deep recursive HDRI</td>
+                                    <td class="tg-jb0k">32.99</td>
+                                    <td class="tg-jb0k">2.81</td>
+                                    <td class="tg-jb0k">28.02</td>
+                                    <td class="tg-jb0k">3.50</td>
+                                    <td class="tg-jb0k">57.15</td>
+                                    <td class="tg-jb0k">4.35</td>
+                                </tr>
+                                <tr>
+                                    <td class="tg-jb0k">Santos et al.</td>
+                                    <td class="tg-jb0k">22.56</td>
+                                    <td class="tg-jb0k">2.68</td>
+                                    <td class="tg-jb0k">18.23</td>
+                                    <td class="tg-jb0k">3.53</td>
+                                    <td class="tg-jb0k">53.51</td>
+                                    <td class="tg-jb0k">4.76</td>
+                                </tr>
+                                <tr>
+                                    <td class="tg-jb0k">Liu et al.</td>
+                                    <td class="tg-jb0k">30.89</td>
+                                    <td class="tg-jb0k">3.27</td>
+                                    <td class="tg-jb0k">28.00</td>
+                                    <td class="tg-jb0k">4.11</td>
+                                    <td class="tg-jb0k">56.97</td>
+                                    <td class="tg-jb0k">6.15</td>
+                                </tr>
+                                <tr>
+                                    <td class="tg-jb0k">CEVR (Ours)</td>
+                                    <td class="tg-eiei">34.67</td>
+                                    <td class="tg-jb0k">3.50</td>
+                                    <td class="tg-eiei">30.04</td>
+                                    <td class="tg-jb0k">4.45</td>
+                                    <td class="tg-eiei">59.00</td>
+                                    <td class="tg-jb0k">5.78</td>
+                                </tr>
+                                <tr>
+                                    <td class="tg-jb0k" rowspan="6">HDREye</td>
+                                    <td class="tg-jb0k">DrTMO</td>
+                                    <td class="tg-jb0k">23.68</td>
+                                    <td class="tg-jb0k">3.27</td>
+                                    <td class="tg-jb0k">19.97</td>
+                                    <td class="tg-jb0k">4.11</td>
+                                    <td class="tg-jb0k">46.67</td>
+                                    <td class="tg-jb0k">5.81</td>
+                                </tr>
+                                <tr>
+                                    <td class="tg-jb0k">Deep chain HDRi</td>
+                                    <td class="tg-jb0k">25.77</td>
+                                    <td class="tg-jb0k">2.44</td>
+                                    <td class="tg-jb0k">22.62</td>
+                                    <td class="tg-jb0k">3.39</td>
+                                    <td class="tg-jb0k">49.80</td>
+                                    <td class="tg-jb0k">5.97</td>
+                                </tr>
+                                <tr>
+                                    <td class="tg-jb0k">Deep recursive HDRI</td>
+                                    <td class="tg-jb0k">26.28</td>
+                                    <td class="tg-jb0k">2.70</td>
+                                    <td class="tg-jb0k">24.62</td>
+                                    <td class="tg-jb0k">2.90</td>
+                                    <td class="tg-jb0k">52.63</td>
+                                    <td class="tg-jb0k">4.84</td>
+                                </tr>
+                                <tr>
+                                    <td class="tg-jb0k">Santos et al.</td>
+                                    <td class="tg-jb0k">19.89</td>
+                                    <td class="tg-jb0k">2.46</td>
+                                    <td class="tg-jb0k">19.00</td>
+                                    <td class="tg-jb0k">3.06</td>
+                                    <td class="tg-jb0k">49.97</td>
+                                    <td class="tg-jb0k">5.44</td>
+                                </tr>
+                                <tr>
+                                    <td class="tg-jb0k">Liu et al.</td>
+                                    <td class="tg-jb0k">26.25</td>
+                                    <td class="tg-jb0k">3.08</td>
+                                    <td class="tg-jb0k">24.67</td>
+                                    <td class="tg-jb0k">3.54</td>
+                                    <td class="tg-jb0k">50.33</td>
+                                    <td class="tg-jb0k">6.67</td>
+                                </tr>
+                                <tr>
+                                    <td class="tg-jb0k">CEVR (Ours)</td>
+                                    <td class="tg-eiei">26.54</td>
+                                    <td class="tg-jb0k">3.10</td>
+                                    <td class="tg-eiei">24.81</td>
+                                    <td class="tg-jb0k">2.91</td>
+                                    <td class="tg-eiei">53.15</td>
+                                    <td class="tg-jb0k">4.91</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Citation
+                </h3>
+                <!-- <div class="form-group col-md-30 col-md-offset-1"> -->
+                <div class="form-group col-md-30 col-md-offset-1">
+                    <textarea id="bibtex" class="form-control" readonly>
+@article{yangmit_2023,
+    title={2D-3D Interlaced Transformer for Point Cloud Segmentation with Scene-Level Supervision},
+    author={Cheng-Kun Yang, Min-Hung Chen, Yung-Yu Chuang and Yen-Yu Lin},
+    journal={ICCV},
+    year={2023}
+}</textarea>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Acknowledgements
+                </h3>
+                <p class="text-justify">
+                    This work was supported in part by the National Science and Technology Council (NSTC) under 
+                    grants 111-2628-E-A49-025-MY3, 112-2221-EA49-090-MY3, 111-2634-F-002-023, 
+                    111-2634-F-006-012, 110-2221-E-002-124-MY3, and 111-2634-F-002-022.This work was funded 
+                    in part by MediaTek, Qualcomm, NVIDIA, and NTU-112L900902.
+                    <br><br>
+                    The website template was borrowed from <a href="https://github.com/jonbarron/website/">Jon
+                        Barron</a>.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
 </html>
